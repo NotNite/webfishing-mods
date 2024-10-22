@@ -1,0 +1,39 @@
+---
+interface Props {
+  title: string;
+  author: string;
+  download: string;
+  source?: string;
+}
+
+const { title, author, download, source } = Astro.props;
+---
+
+<article>
+  <hgroup>
+    <h2>{title}</h2>
+    <p>by {author}</p>
+  </hgroup>
+
+  <slot />
+
+  <footer>
+    <a href={download}>
+      <button>Download</button>
+    </a>
+
+    {
+      source != null && (
+        <a href={source}>
+          <button class="secondary">Source</button>
+        </a>
+      )
+    }
+  </footer>
+</article>
+
+<style>
+  a {
+    text-decoration: none;
+  }
+</style>

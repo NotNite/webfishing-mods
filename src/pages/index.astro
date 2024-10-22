@@ -1,0 +1,55 @@
+---
+import "@picocss/pico";
+import { getCollection } from "astro:content";
+import Mod from "../components/Mod.astro";
+import type { CollectionEntry } from "astro:content";
+import type { RenderResult } from "astro:content";
+
+const content = await getCollection("mods");
+content.sort((a, b) => a.slug.localeCompare(b.slug));
+
+const mods: [CollectionEntry<"mods">, RenderResult][] = [];
+for (const mod of content) mods.push([mod, await mod.render()]);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/webfishing-mods/favicon.png" />
+    <title>WEBFISHING Mods</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>WEBFISHING Mods</h1>
+      <p>
+        Using these mods requires installing <a
+          href="https://github.com/NotNite/GDWeave">GDWeave</a
+        >. Are you a mod developer? <a
+          href="https://github.com/NotNite/webfishing-mods">Add your own mod!</a
+        >
+      </p>
+
+      <hr />
+
+      <div id="mods">
+        {
+          mods.map(([mod, body]) => {
+            const Content = body.Content;
+            return (
+              <Mod
+                author={mod.data.author}
+                download={mod.data.download}
+                source={mod.data.source}
+                title={mod.data.title}
+              >
+                <Content />
+              </Mod>
+            );
+          })
+        }
+      </div>
+    </main>
+  </body>
+</html>
