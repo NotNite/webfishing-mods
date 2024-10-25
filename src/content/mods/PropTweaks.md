@@ -1,7 +1,7 @@
 ---
 title: PropTweaks
 author: neomoth
-download: "https://github.com/neomoth/PropTweaksMod/releases/latest"
+download: "https://github.com/neomoth/PropTweaksMod/releases/latest/download/PropTweaks.zip"
 source: "https://github.com/neomoth/PropTweaksMod"
 ---
 
