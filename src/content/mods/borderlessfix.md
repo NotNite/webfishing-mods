@@ -1,5 +1,6 @@
 ---
 title: BorderlessFix
+id: BorderlessFix
 author: Dragonostic
 download: "https://github.com/dragonostic/BorderlessFix/releases/download/Latest/BorderlessFix.zip"
 source: "https://github.com/dragonostic/BorderlessFix"

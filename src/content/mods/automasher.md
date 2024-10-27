@@ -1,5 +1,6 @@
 ---
 title: Automasher
+id: Automasher
 author: Daniela
 download: "https://github.com/danielah05/WebfishingMods/releases/latest/download/Automasher.zip"
 source: "https://github.com/danielah05/WebfishingMods"

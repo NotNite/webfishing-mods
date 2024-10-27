@@ -1,5 +1,6 @@
 ---
 title: Nyoom!!!
+id: Nyoom
 author: uncreativeCultist
 download: "https://git.lainiwakura.xyz/uncreativecultist/NyoomMod/releases/download/v1.0.2/Nyoom-v1.0.2.zip"
 source: "https://git.lainiwakura.xyz/uncreativecultist/NyoomMod"

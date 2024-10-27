@@ -1,5 +1,6 @@
 ---
 title: SaveCanvas
+id: SaveCanvas
 author: Dragonostic
 download: "https://github.com/dragonostic/SaveCanvas/releases/download/Latest/SaveCanvas.zip"
 source: "https://github.com/dragonostic/SaveCanvas"

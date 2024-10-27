@@ -9,6 +9,7 @@ Mod list for WEBFISHING.
 ```yaml
 ---
 title: ModName
+id: ModID
 author: list of authors
 download: "URL to download the mod"
 source: "optional URL for the source code"

@@ -1,5 +1,6 @@
 ---
 title: QuickGamble
+id: QuickGamble
 author: yeeter
 download: "https://github.com/yeeterlol/quickGamble/releases/latest/download/quickGamble.zip"
 source: "https://github.com/yeeterlol/quickGamble"

@@ -1,6 +1,7 @@
 ---
 title: ReelChat
-author: BlueberryWolfi  
+id: BlueberryWolfi.ReelChat
+author: BlueberryWolfi
 download: "https://github.com/BlueberryWolf/ReelChat/releases/latest/download/BlueberryWolfi.ReelChat.zip"
 source: "https://github.com/BlueberryWolf/ReelChat"
 ---

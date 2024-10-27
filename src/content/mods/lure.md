@@ -1,5 +1,6 @@
 ---
 title: Lure
+id: Sulayre.Lure
 author: Sulayre
 download: "https://github.com/Sulayre/WebfishingLure/releases/latest/download/Lure.zip"
 source: "https://github.com/Sulayre/WebfishingLure"

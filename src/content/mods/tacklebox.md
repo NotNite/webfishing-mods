@@ -1,5 +1,6 @@
 ---
 title: TackleBox
+id: TackleBox
 author: Jade
 download: "https://github.com/puppy-girl/TackleBox/releases/latest/download/TackleBox.zip"
 source: "https://github.com/puppy-girl/TackleBox"

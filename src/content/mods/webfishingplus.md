@@ -1,5 +1,6 @@
 ---
 title: WebfishingPlus
+id: WebfishingPlus
 author: NotNite, funcjay
 download: "https://github.com/NotNite/WebfishingPlus/releases/latest/download/WebfishingPlus.zip"
 source: "https://github.com/NotNite/WebfishingPlus"

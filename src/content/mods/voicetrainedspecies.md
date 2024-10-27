@@ -1,5 +1,6 @@
 ---
 title: VoiceTrainedSpecies
+id: VoiceTrainedSpecies
 author: sophiethefox
 download: "https://github.com/sophiethefox/VoiceTrainedSpecies-Webfishing/releases/latest/download/VoiceTrainedSpecies.zip"
 source: "https://github.com/sophiethefox/VoiceTrainedSpecies-Webfishing/"

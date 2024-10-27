@@ -1,5 +1,6 @@
 ---
 title: SprintToggle
+id: SprintToggle
 author: Daniela
 download: "https://github.com/danielah05/WebfishingMods/releases/latest/download/SprintToggle.zip"
 source: "https://github.com/danielah05/WebfishingMods"
