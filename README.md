@@ -2,6 +2,9 @@
 
 Mod list for WEBFISHING.
 
+> [!WARNING]
+> This repository is no longer suggested by the community, but remains here for historic reasons. Publish on [Thunderstore](https://thunderstore.io/c/webfishing/) now, see [here](https://github.com/NotNite/GDWeave/blob/main/MODS.md#publishing-to-thunderstore) for instructions.
+
 ## Contributing
 
 [Fork this repository](https://github.com/NotNite/webfishing-mods/fork), create a Markdown file in `src/content/mods`,  and [create a pull request](https://github.com/NotNite/webfishing-mods/compare). The Markdown file should have the following structure:
